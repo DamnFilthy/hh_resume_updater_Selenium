@@ -1,4 +1,4 @@
-# HH Resume Updater 
+# HH Resume Updater - by Selenium 
 ### This script allows you to raise your resume in the search automatically on hh.ru
 
 #### How to use it:
