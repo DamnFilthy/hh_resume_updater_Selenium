@@ -60,7 +60,7 @@ def updater(timer):
             # Enter mobile phone
             login = driver.find_elements_by_class_name('bloko-input')
             time.sleep(0.5)
-            login[1].send_keys('79771336627')
+            login[1].send_keys('your-mobile')
             time.sleep(0.5)
             now = datetime.datetime.now()
             print(f'Ввел логин. Время: {now}')
@@ -70,7 +70,7 @@ def updater(timer):
 
             # Password
             passwd = driver.find_elements_by_class_name('bloko-input')
-            passwd[2].send_keys('1345685Aa')
+            passwd[2].send_keys('your-pass')
             time.sleep(0.5)
             now = datetime.datetime.now()
             print(f'Ввел пароль. Время: {now}')
